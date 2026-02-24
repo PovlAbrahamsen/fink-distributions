@@ -202,6 +202,7 @@ SplitOff: <<
 <<
 SplitOff2: <<
 	Package: xtide2-dev
+	Depends: %N (= %v-%r)
 	Files: <<
 		lib/libxtide.{a,la,dylib}
 		include
